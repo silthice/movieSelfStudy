@@ -56,6 +56,10 @@
 		EECD1ADB2BE08A0B00217965 /* movieSelfStudy */ = {
 			isa = PBXGroup;
 			children = (
+				EECD1AF42BE08A2100217965 /* Helper */,
+				EECD1AF32BE08A2100217965 /* Module */,
+				EECD1AF02BE08A2100217965 /* Networking */,
+				EECD1AF72BE08A2100217965 /* Resources */,
 				EECD1ADC2BE08A0B00217965 /* AppDelegate.swift */,
 				EECD1ADE2BE08A0B00217965 /* SceneDelegate.swift */,
 				EECD1AE02BE08A0B00217965 /* ViewController.swift */,
@@ -65,6 +69,66 @@
 				EECD1AEA2BE08A0C00217965 /* Info.plist */,
 			);
 			path = movieSelfStudy;
+			sourceTree = "<group>";
+		};
+		EECD1AF02BE08A2100217965 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EECD1AF12BE08A2100217965 /* Endpoints */,
+				EECD1AF22BE08A2100217965 /* Models */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		EECD1AF12BE08A2100217965 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		EECD1AF22BE08A2100217965 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EECD1AF32BE08A2100217965 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		EECD1AF42BE08A2100217965 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EECD1AF52BE08A2100217965 /* Extensions */,
+				EECD1AF62BE08A2100217965 /* Utilities */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EECD1AF52BE08A2100217965 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EECD1AF62BE08A2100217965 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EECD1AF72BE08A2100217965 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
